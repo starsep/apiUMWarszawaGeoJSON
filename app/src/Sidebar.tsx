@@ -22,7 +22,7 @@ export const Sidebar: FC<{source: string | null, setSource: (source: string | nu
                     <label><input type="radio" name="layer" onClick={() => setSource(layer)} checked={layer == source}/>
                         {label}
                         &nbsp;
-                        <a href={`https://umwarszawa.starsep.com/${layer}.geojson`}>↓</a>
+                        <a href={`https://umwarszawa.starsep.com/${layer}.geojson`} download target="_blank">↓</a>
                     </label>
                 </React.Fragment>
             ))}
