@@ -1,0 +1,33 @@
+@import url('~simpledotcss/simple.min.css');
+
+body {
+  display: block;
+}
+
+nav {
+  grid-area: navbar;
+  height: 50px;
+  width: 100%;
+}
+
+#row {
+  display: block;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+#row > div {
+  float: right;
+  margin: 0;
+}
+
+#sidebar {
+  display: block;
+  width: 300px;
+  height: auto;
+  position: absolute;
+}
+
+#map {
+  display: block;
+}
