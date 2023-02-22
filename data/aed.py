@@ -32,7 +32,7 @@ class AEDDownloader(DataDownloader):
                 )
                 properties = aedDetails["result"][0]["properties"]
                 if "attachment" in properties:
-                    with Path(picturesDir / f"aed{aedId}.jpg").open("wb") as f:
+                    with Path(picturesDir / f"warszawaUM{aedId}.jpg").open("wb") as f:
                         f.write(base64.b64decode(properties["attachment"]))
         return FeatureCollection(features)
 
