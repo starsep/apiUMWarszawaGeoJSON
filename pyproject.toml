@@ -1,0 +1,11 @@
+[project]
+name = "apiumwarszawageojson"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "geojson>=3.2.0",
+    "httpx>=0.28.1",
+    "tqdm>=4.67.1",
+]
